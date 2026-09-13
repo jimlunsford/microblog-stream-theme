@@ -1,0 +1,75 @@
+{
+  "name": "Microblog Stream",
+  "slug": "microblog-stream",
+  "version": "2.1.4",
+  "author": "Bonumark",
+  "description": "A dark, compact, orange-accented personal microblog theme with declarative Profile, Stream Card, and Home layouts, the classic status/count header, and Following and Conversation presentation for Bonumark Stream v0.8.1.",
+  "screenshot": "assets/images/screenshot.svg",
+  "assets": {
+    "css": [
+      "assets/css/theme.css"
+    ],
+    "images": [
+      "assets/images/screenshot.svg"
+    ],
+    "fonts": []
+  },
+  "supports": {
+    "profiles": true,
+    "comments": true,
+    "avatars": true,
+    "media": true,
+    "media_galleries": true,
+    "navigation": true,
+    "rss": true,
+    "theme_settings": true,
+    "archives": true,
+    "search": true,
+    "composer": true,
+    "pagination": true,
+    "pages": true,
+    "link_previews": true,
+    "pinned_posts": true,
+    "local_places": true
+  },
+  "settings": {
+    "show_status_chip": {
+      "type": "checkbox",
+      "label": "Show header status",
+      "description": "Display the optional header status indicator.",
+      "default": "1"
+    },
+    "status_label": {
+      "type": "text",
+      "label": "Header status label",
+      "description": "Short text shown inside the optional header status indicator.",
+      "default": "Live microblog"
+    },
+    "show_post_count": {
+      "type": "checkbox",
+      "label": "Show post count",
+      "description": "Display the optional published-post counter.",
+      "default": "1"
+    },
+    "show_page_updated_date": {
+      "type": "checkbox",
+      "label": "Show page updated date",
+      "description": "Display the updated date under public page titles. Off by default.",
+      "default": "0"
+    },
+    "menu_label": {
+      "type": "text",
+      "label": "Menu button label",
+      "description": "Text used for the public navigation toggle.",
+      "default": "Menu"
+    }
+  },
+  "package": "external-code-free-theme",
+  "minimum_core_version": "0.7.2",
+  "layout_schema": 1,
+  "layouts": {
+    "profile": "layouts/profile.json",
+    "stream-card": "layouts/stream-card.json",
+    "home": "layouts/home.json"
+  }
+}

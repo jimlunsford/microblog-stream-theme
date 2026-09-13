@@ -1,0 +1,79 @@
+{
+  "surface": "profile",
+  "root": {
+    "type": "group",
+    "name": "microblog-profile",
+    "children": [
+      {
+        "type": "group",
+        "name": "microblog-profile-intro",
+        "children": [
+          {
+            "type": "component",
+            "name": "profile.cover"
+          },
+          {
+            "type": "group",
+            "name": "microblog-profile-hero",
+            "children": [
+              {
+                "type": "component",
+                "name": "profile.avatar"
+              },
+              {
+                "type": "component",
+                "name": "profile.identity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "name": "microblog-profile-content",
+        "children": [
+          {
+            "type": "group",
+            "name": "microblog-profile-primary",
+            "children": [
+              {
+                "type": "component",
+                "name": "profile.about"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "name": "microblog-profile-rail",
+            "children": [
+              {
+                "type": "component",
+                "name": "profile.now"
+              },
+              {
+                "type": "component",
+                "name": "profile.interests"
+              },
+              {
+                "type": "component",
+                "name": "profile.links"
+              },
+              {
+                "type": "component",
+                "name": "profile.details"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "component",
+        "name": "profile.featured"
+      },
+      {
+        "type": "component",
+        "name": "profile.photos"
+      }
+    ]
+  }
+}
