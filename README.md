@@ -270,3 +270,9 @@ Tightened the header-to-feed spacing so logged-out views do not leave a large em
 ## v2.0.2
 
 Kept the stronger avatar treatment while reducing the orange card wash, border intensity, and glow so orange returns to being an accent instead of dominating every card.
+
+## License
+
+Copyright (C) 2026 Jim Lunsford.
+
+Microblog Stream Theme is licensed under the **GNU Affero General Public License version 3 or later** (`AGPL-3.0-or-later`). See [LICENSE](LICENSE) for the complete license text.
