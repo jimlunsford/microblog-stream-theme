@@ -4,13 +4,13 @@
   "version": "2.1.4",
   "author": "Bonumark",
   "description": "A dark, compact, orange-accented personal microblog theme with declarative Profile, Stream Card, and Home layouts, the classic status/count header, and Following and Conversation presentation for Bonumark Stream v0.8.1.",
-  "screenshot": "assets/images/screenshot.svg",
+  "screenshot": "assets/images/screenshot.png",
   "assets": {
     "css": [
       "assets/css/theme.css"
     ],
     "images": [
-      "assets/images/screenshot.svg"
+      "assets/images/screenshot.png"
     ],
     "fonts": []
   },

@@ -25,7 +25,7 @@ microblog-stream-theme/
     home.json
   assets/
     css/theme.css
-    images/screenshot.svg
+    images/screenshot.png
 ```
 
 ## Theme boundary
@@ -49,6 +49,10 @@ Edit `layouts/*.json` to change the composition of the declared Profile, Stream 
 
 Do not add PHP, JavaScript, arbitrary HTML, templates, expressions, routes, or application logic. Bonumark Stream validates the declared layouts and continues to own all component markup and behavior.
 
+
+## Unreleased: PNG screenshot
+
+Bonumark Stream core no longer accepts SVG files in theme packages. The screenshot is now `assets/images/screenshot.png`, a faithful raster of the previous SVG. No CSS, layout, setting, or capability changed, and the theme version is unchanged until a release is approved. An installed v2.1.4 with the SVG screenshot keeps working on newer core; Theme Health lists the SVG as a warning until this package replaces it.
 
 ## v2.1.4: ActivityPub Presentation Compatibility
 
@@ -97,7 +101,7 @@ If theme ZIP installation is unavailable on an intentionally locked installation
 | --- | --- |
 | `theme.json`, `README.md`, `THEME-DATA.md`, `layouts/` | `_bonumark_stream/themes/microblog-stream/` |
 | `assets/css/theme.css` | `assets/themes/microblog-stream/assets/css/theme.css` |
-| `assets/images/screenshot.svg` | `assets/themes/microblog-stream/assets/images/screenshot.svg` |
+| `assets/images/screenshot.png` | `assets/themes/microblog-stream/assets/images/screenshot.png` |
 
 Do not blindly unzip this single-folder package over the website root. Update both theme locations together, preserve the site's ownership model, and run Theme Health before activation. Only declared public assets belong in the public directory.
 
